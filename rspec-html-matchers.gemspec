@@ -19,7 +19,7 @@ DESC
   s.require_path     = 'lib'
   s.extra_rdoc_files = ['README.md','CHANGELOG.md']
 
-  s.add_runtime_dependency 'rspec',    '>= 3.0.0.a', '< 4'
+  s.add_runtime_dependency 'rspec'
   s.add_runtime_dependency 'nokogiri', '~> 1'
 
   s.add_development_dependency 'simplecov',          '~> 0'
